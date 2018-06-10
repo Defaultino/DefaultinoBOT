@@ -1,0 +1,101 @@
+[22.074699402] 2018-06-10 21:34:11,490 - INFO - launcher: Starting sanity checks
+[22.074699402] 2018-06-10 21:34:11,490 - INFO - launcher: Checking for Python 3.5+
+[22.576570511] 2018-06-10 21:34:11,490 - INFO - launcher: Checking console encoding
+[22.576570511] 2018-06-10 21:34:11,490 - INFO - launcher: Setting console encoding to UTF-8
+[22.576570511] 2018-06-10 21:34:11,490 - INFO - launcher: Ensuring we're in the right environment
+[23.579835892] 2018-06-10 21:34:11,491 - INFO - launcher: Adding local bins/ folder to path
+[23.579835892] 2018-06-10 21:34:11,491 - INFO - launcher: Required checks passed.
+[24.082422256] 2018-06-10 21:34:11,492 - INFO - launcher: Optional checks passed.
+[24.583816528] 2018-06-10 21:34:11,492 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.8197908401489258] 2018-06-10 21:34:12,288 - WARNING - musicbot.config | In config.py::MainThread(10388), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.8197908401489258] 2018-06-10 21:34:12,288 - INFO - musicbot.config | In config.py::MainThread(10388), line 123 in run_checks: Using i18n: config/i18n/en.json
+[0.8222992420196533] 2018-06-10 21:34:12,290 - DEBUG - musicbot.json | In json.py::MainThread(10388), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.9376931190490723] 2018-06-10 21:34:12,405 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 227 in _setup_logging: Set logging level to INFO
+[0.9381940364837646] 2018-06-10 21:34:12,406 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 84 in __init__: Starting MusicBot 1.9.7
+[0.9386968612670898] 2018-06-10 21:34:12,406 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 90 in __init__: Loaded autoplaylist with 1 entries
+[4.9959256649017334] 2018-06-10 21:34:16,464 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 1074 in on_ready: Connection established, ready to go.
+[4.9959256649017334] 2018-06-10 21:34:16,464 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 339 in _cache_app_info: Caching app info
+[12.3174400329589844] 2018-06-10 21:34:23,785 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[12.3194458484649658] 2018-06-10 21:34:23,787 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 905 in _scheck_server_permissions: Checking server permissions
+[12.3194458484649658] 2018-06-10 21:34:23,787 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[12.3194458484649658] 2018-06-10 21:34:23,787 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 913 in _scheck_configs: Validating config
+[12.3194458484649658] 2018-06-10 21:34:23,787 - DEBUG - musicbot.config | In config.py::MainThread(10388), line 212 in async_validate: Validating options...
+[12.3194458484649658] 2018-06-10 21:34:23,787 - DEBUG - musicbot.config | In config.py::MainThread(10388), line 226 in async_validate: Acquired owner id via API
+[12.3199479579925537] 2018-06-10 21:34:23,788 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 916 in _scheck_configs: Validating permissions config
+[12.3199479579925537] 2018-06-10 21:34:23,788 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10388), line 64 in async_validate: Validating permissions...
+[12.3199479579925537] 2018-06-10 21:34:23,788 - DEBUG - musicbot.permissions | In permissions.py::MainThread(10388), line 68 in async_validate: Fixing automatic owner group
+[12.3199479579925537] 2018-06-10 21:34:23,788 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1091 in on_ready: Connected: 432948589329645589/DefaultinoBOT#1975
+[12.3204498291015625] 2018-06-10 21:34:23,788 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1099 in on_ready: Owner:     275298955942952960/❌⛔Defaultino⛔❌#4785
+
+[12.3209509849548340] 2018-06-10 21:34:23,789 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1102 in on_ready: Server List:
+[12.3209509849548340] 2018-06-10 21:34:23,789 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1105 in on_ready:  - eFun - Polskie Centrum Zabawy
+[12.3214526176452637] 2018-06-10 21:34:23,789 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1105 in on_ready:  - PL/EN
+[12.3219554424285889] 2018-06-10 21:34:23,790 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1138 in on_ready: Bound to text channels:
+[12.3219554424285889] 2018-06-10 21:34:23,790 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1139 in <listcomp>:  - PL/EN/🎫new🎫
+[12.3224558830261230] 2018-06-10 21:34:23,790 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1139 in <listcomp>:  - eFun - Polskie Centrum Zabawy/defaultino-bot
+[12.3224558830261230] 2018-06-10 21:34:23,790 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 1177 in on_ready: Not autojoining any voice channels
+[12.3229587078094482] 2018-06-10 21:34:23,791 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 272 in _join_startup_channels: Found owner in "🛏 Sypialnia 🛏"
+[12.3234601020812988] 2018-06-10 21:34:23,791 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 281 in _join_startup_channels: Attempting to join eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏
+[12.3234601020812988] 2018-06-10 21:34:23,791 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 452 in get_voice_client: Connection attempt 1 to 🛏 Sypialnia 🛏
+[12.3234601020812988] 2018-06-10 21:34:23,791 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[12.3239619731903076] 2018-06-10 21:34:23,792 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[12.3239619731903076] 2018-06-10 21:34:23,792 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[12.5391774177551270] 2018-06-10 21:34:24,007 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 2938 in on_voice_state_update: Voice state update for 432948589329645589/DefaultinoBOT#1975 on eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏 -> [JOIN, CONNECT]
+[12.5391774177551270] 2018-06-10 21:34:24,007 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 2949 in on_voice_state_update: 432948589329645589/DefaultinoBOT#1975 has joined eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏
+[12.5401804447174072] 2018-06-10 21:34:24,008 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[12.6387221813201904] 2018-06-10 21:34:24,106 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[13.0069003105163574] 2018-06-10 21:34:24,475 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[13.0069003105163574] 2018-06-10 21:34:24,475 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 478 in get_voice_client: Connected in 0.7s
+[13.0069003105163574] 2018-06-10 21:34:24,475 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 479 in get_voice_client: Connected to eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏
+[13.0079047679901123] 2018-06-10 21:34:24,476 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 849 in deserialize_queue: Deserializing queue for 407482429788389395
+[13.1348369121551514] 2018-06-10 21:34:24,603 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 570 in get_player: Created player via deserialization for server 407482429788389395 with 2 entries
+[13.1348369121551514] 2018-06-10 21:34:24,603 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 297 in _join_startup_channels: Joined eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏
+[13.1353387832641602] 2018-06-10 21:34:24,603 - VOICEDEBUG - musicbot.player | In player.py::MainThread(10388), line 373 in websocket_check: Starting websocket check loop for eFun - Polskie Centrum Zabawy
+[13.1358406543731689] 2018-06-10 21:34:24,604 - DEBUG - musicbot.entry | In entry.py::MainThread(10388), line 54 in get_ready_future: Created future for audio_cache\youtube-TLLt_MSN_Ec-Muzyka_na_lato_wakacje_2017_-_Najlepsze_klubowe_hity_-_Per_i_BartiS.webm
+[13.1358406543731689] 2018-06-10 21:34:24,604 - DEBUG - musicbot.entry | In entry.py::MainThread(10388), line 54 in get_ready_future: Created future for audio_cache\youtube-TLLt_MSN_Ec-Muzyka_na_lato_wakacje_2017_-_Najlepsze_klubowe_hity_-_Per_i_BartiS.webm
+[13.1358406543731689] 2018-06-10 21:34:24,604 - FFMPEG - musicbot.player | In player.py::MainThread(10388), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-TLLt_MSN_Ec-Muzyka_na_lato_wakacje_2017_-_Najlepsze_klubowe_hity_-_Per_i_BartiS.webm
+[13.1388502120971680] 2018-06-10 21:34:24,607 - DEBUG - musicbot.bot | In bot.py::MainThread(10388), line 825 in serialize_queue: Serializing queue for 407482429788389395
+[420.8950200080871582] 2018-06-10 21:41:12,363 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 2938 in on_voice_state_update: Voice state update for 361244678802374657/sellect#5498 on eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏 -> [JOIN, CONNECT]
+[420.8955204486846924] 2018-06-10 21:41:12,363 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 2949 in on_voice_state_update: 361244678802374657/sellect#5498 has joined eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏
+[458.5271081924438477] 2018-06-10 21:41:49,995 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 2734 in on_message: 275298955942952960/❌⛔Defaultino⛔❌#4785: *play bassbusterz
+[460.7685708999633789] 2018-06-10 21:41:52,236 - ERROR - musicbot.bot | In bot.py::MainThread(10388), line 2863 in on_message: Error in play: CommandError: ERROR: This video is unavailable.
+Traceback (most recent call last):
+  File "C:\Users\sirko\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 792, in extract_info
+    ie_result = ie.extract(url)
+  File "C:\Users\sirko\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\common.py", line 500, in extract
+    ie_result = self._real_extract(url)
+  File "C:\Users\sirko\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\extractor\youtube.py", line 1875, in _real_extract
+    raise ExtractorError(error_message, expected=True)
+youtube_dl.utils.ExtractorError: This video is unavailable.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sirko\Desktop\xd\MusicBot\musicbot\bot.py", line 1503, in cmd_play
+    info = await self.downloader.extract_info(player.playlist.loop, song_url, download=False, process=False)
+  File "C:\Users\sirko\Desktop\xd\MusicBot\musicbot\downloader.py", line 84, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\sirko\AppData\Local\Programs\Python\Python36-32\lib\concurrent\futures\thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sirko\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 815, in extract_info
+    self.report_error(compat_str(e), e.format_traceback())
+  File "C:\Users\sirko\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 620, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\sirko\AppData\Local\Programs\Python\Python36-32\lib\site-packages\youtube_dl\YoutubeDL.py", line 590, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: This video is unavailable.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sirko\Desktop\xd\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\sirko\Desktop\xd\MusicBot\musicbot\bot.py", line 1509, in cmd_play
+    raise exceptions.CommandError(e, expire_in=30)
+musicbot.exceptions.CommandError: ERROR: This video is unavailable.
+[466.4049096107482910] 2018-06-10 21:41:57,873 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 2734 in on_message: 275298955942952960/❌⛔Defaultino⛔❌#4785: *pause
+[485.4658052921295166] 2018-06-10 21:42:16,934 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(10388), line 2938 in on_voice_state_update: Voice state update for 361244678802374657/sellect#5498 on eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏 -> [LEAVE, DISCONNECT]
+[485.4663069248199463] 2018-06-10 21:42:16,934 - INFO - musicbot.bot | In bot.py::MainThread(10388), line 2949 in on_voice_state_update: 361244678802374657/sellect#5498 has left eFun - Polskie Centrum Zabawy/🛏 Sypialnia 🛏
